@@ -18,13 +18,8 @@ body {
      border-style: groove;
      align-content: center;
      width: 200px;
-     alignment: center;
+     align-self: auto;
  }
  .right {
      float: right;
- }
- #button    {
-     navbutton_next_pushed: url("http://www.pricing.xactware.com/editor");
-     color-interpolation: linearRGB;
-     alignment: center;
  }
