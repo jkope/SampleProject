@@ -14,19 +14,16 @@ ul {
 li{
     display: inline;
 }
- /* p {
+ p {
    border-style: dashed;
-    align-content: center;
- } */
- /* div{
-     color: white;
-     border-radius: 3px;
-     border-style: groove;
-     align-content: center;
-     width: 200px;
-     align-self: auto;
- } */
- .right {
+ }
+ .center {
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+ }
+.right {
      float: right;
  }  
  .blkfnt{
@@ -40,10 +37,9 @@ li{
 }
 #footer{
     position: absolute;
+    width: 99%;
     bottom: 0%;
-    left: 0%;
-    right: 0%;
-    margin: auto;
+    text-align: center;
     padding-bottom: 20px;
 }
- /* also touched changed */
+ 
