@@ -23,6 +23,13 @@ li{
     text-align: center;
     font-size: 18px;
  }
+ .container {
+     width: 20%;
+     height: 20%;
+ }
+ .bgColor{
+     background-color: blue
+ }
 .right {
      float: right;
  }  
