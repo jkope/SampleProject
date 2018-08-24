@@ -1,26 +1,49 @@
 body {
-    font-family: "Baskerville Old Face", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: slategrey;
+    background-color: rgba(18, 18, 22, 0.959)
 }
 
-.list {
+ul {
     font-size: large;
     font-variant-caps: all-small-caps;
-    color: blue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
- p {
+li{
+    display: inline;
+}
+ /* p {
    border-style: dashed;
     align-content: center;
- }
- div{
-     background-color: dodgerblue;
+ } */
+ /* div{
      color: white;
      border-radius: 3px;
      border-style: groove;
      align-content: center;
      width: 200px;
      align-self: auto;
- }
+ } */
  .right {
      float: right;
  }  
+ .blkfnt{
+     color: black;
+ }
+ .white{
+     color: white;
+ }
+.bottom{
+    float:bottom;
+}
+#footer{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    padding-bottom: 20px;
+}
  /* also touched changed */
